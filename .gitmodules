@@ -7,3 +7,6 @@
 [submodule "vim/pack/kreisys/start/vim-surround"]
 	path = vim/pack/kreisys/start/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule "vim/pack/kreisys/start/nerdcommenter"]
+	path = vim/pack/kreisys/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
