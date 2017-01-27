@@ -4,3 +4,6 @@
 [submodule "vim/pack/kreisys/start/vim-terraform"]
 	path = vim/pack/kreisys/start/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "vim/pack/kreisys/start/vim-surround"]
+	path = vim/pack/kreisys/start/vim-surround
+	url = https://github.com/tpope/vim-surround
