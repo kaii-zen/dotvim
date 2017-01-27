@@ -1,3 +1,6 @@
+" Set <Leader> to comma
+let mapleader=","
+
 " Enable syntax highlighting
 syntax on
 
