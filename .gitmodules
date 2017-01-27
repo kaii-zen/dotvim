@@ -10,3 +10,6 @@
 [submodule "vim/pack/kreisys/start/nerdcommenter"]
 	path = vim/pack/kreisys/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
+[submodule "vim/pack/kreisys/start/vim-gitgutter"]
+	path = vim/pack/kreisys/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
