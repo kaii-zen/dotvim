@@ -1,3 +1,6 @@
 [submodule "vim/pack/kreisys/start/vim-airline"]
 	path = vim/pack/kreisys/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/pack/kreisys/start/vim-terraform"]
+	path = vim/pack/kreisys/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
