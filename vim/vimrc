@@ -1,0 +1,4 @@
+"### Airline ###
+
+" Fix not loading at startup
+set laststatus=2
