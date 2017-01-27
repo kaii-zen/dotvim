@@ -1,6 +1,9 @@
 " Enable syntax highlighting
 syntax on
 
+" Use macOS clipboard
+set clipboard=unnamed
+
 "### Airline ###
 
 " Fix not loading at startup
@@ -8,3 +11,5 @@ set laststatus=2
 
 " Enable Powerline fonts
 let g:airline_powerline_fonts = 1
+
+"### /Airline ###
