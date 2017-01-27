@@ -13,3 +13,6 @@
 [submodule "vim/pack/kreisys/start/vim-gitgutter"]
 	path = vim/pack/kreisys/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "vim/pack/kreisys/start/editorconfig-vim"]
+	path = vim/pack/kreisys/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
