@@ -4,6 +4,10 @@ syntax on
 " Use macOS clipboard
 set clipboard=unnamed
 
+" Load filetype plugin and indent
+filetype plugin on
+filetype indent on
+
 "### Airline ###
 
 " Fix not loading at startup
