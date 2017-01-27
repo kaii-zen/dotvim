@@ -1,6 +1,9 @@
 " Set <Leader> to comma
 let mapleader=","
 
+" Enable line numbers
+set number
+
 " Enable syntax highlighting
 syntax on
 
