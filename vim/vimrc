@@ -2,3 +2,6 @@
 
 " Fix not loading at startup
 set laststatus=2
+
+" Enable Powerline fonts
+let g:airline_powerline_fonts = 1
