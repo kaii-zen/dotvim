@@ -16,3 +16,6 @@
 [submodule "vim/pack/kreisys/start/editorconfig-vim"]
 	path = vim/pack/kreisys/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
+[submodule "vim/pack/kreisys/start/ctrlp.vim"]
+	path = vim/pack/kreisys/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
