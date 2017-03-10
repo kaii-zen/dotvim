@@ -31,3 +31,6 @@
 [submodule "vim/pack/kreisys/start/nerdtree-git-plugin"]
 	path = vim/pack/kreisys/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "vim/pack/kreisys/start/vim-vaultproject"]
+	path = vim/pack/kreisys/start/vim-vaultproject
+	url = https://github.com/hashivim/vim-vaultproject
