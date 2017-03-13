@@ -43,3 +43,6 @@
 [submodule "vim/pack/kreisys/start/tagbar"]
 	path = vim/pack/kreisys/start/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "vim/pack/kreisys/start/neocomplete.vim"]
+	path = vim/pack/kreisys/start/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim
