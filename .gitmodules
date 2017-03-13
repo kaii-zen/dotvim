@@ -1,48 +1,48 @@
 [submodule "vim/pack/kreisys/start/vim-airline"]
-	path = pack/plugins/start/vim-airline
+	path = pack/vim-airline/start/vim-airlne
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim/pack/kreisys/start/vim-terraform"]
-	path = pack/plugins/start/vim-terraform
+	path = pack/hashivim/start/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
 [submodule "vim/pack/kreisys/start/vim-surround"]
-	path = pack/plugins/start/vim-surround
+	path = pack/tpope/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 [submodule "vim/pack/kreisys/start/nerdcommenter"]
-	path = pack/plugins/start/nerdcommenter
+	path = pack/scrooloose/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
 [submodule "vim/pack/kreisys/start/vim-gitgutter"]
-	path = pack/plugins/start/vim-gitgutter
+	path = pack/airblade/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 [submodule "vim/pack/kreisys/start/editorconfig-vim"]
-	path = pack/plugins/start/editorconfig-vim
+	path = pack/editorconfig/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
 [submodule "vim/pack/kreisys/start/ctrlp.vim"]
-	path = pack/plugins/start/ctrlp.vim
+	path = pack/ctrlpvim/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "vim/pack/kreisys/start/vim-coffee-script"]
-	path = pack/plugins/start/vim-coffee-script
+	path = pack/kchmck/start/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script
 [submodule "vim/pack/kreisys/start/vim-better-whitespace"]
-	path = pack/plugins/start/vim-better-whitespace
+	path = pack/ntpeters/start/vim-better-whitespace
 	url = https://github.com/ntpeters/vim-better-whitespace
 [submodule "vim/pack/kreisys/start/nerdtree"]
-	path = pack/plugins/start/nerdtree
+	path = pack/scrooloose/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree
 [submodule "vim/pack/kreisys/start/nerdtree-git-plugin"]
-	path = pack/plugins/start/nerdtree-git-plugin
+	path = pack/Xuyuanp/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin
 [submodule "vim/pack/kreisys/start/vim-vaultproject"]
-	path = pack/plugins/start/vim-vaultproject
+	path = pack/hashivim/start/vim-vaultproject
 	url = https://github.com/hashivim/vim-vaultproject
 [submodule "vim/pack/kreisys/start/vim-go"]
-	path = pack/plugins/start/vim-go
+	path = pack/fatih/start/vim-go
 	url = https://github.com/fatih/vim-go
 [submodule "vim/pack/kreisys/start/vim-dispatch"]
-	path = pack/plugins/start/vim-dispatch
+	path = pack/tpope/start/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch
 [submodule "vim/pack/kreisys/start/tagbar"]
-	path = pack/plugins/start/tagbar
+	path = pack/majutsushi/start/tagbar
 	url = https://github.com/majutsushi/tagbar
 [submodule "vim/pack/kreisys/start/neocomplete.vim"]
-	path = pack/plugins/start/neocomplete.vim
+	path = pack/Shougo/start/neocomplete.vim
 	url = https://github.com/Shougo/neocomplete.vim
