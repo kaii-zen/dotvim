@@ -37,3 +37,6 @@
 [submodule "vim/pack/kreisys/start/vim-go"]
 	path = vim/pack/kreisys/start/vim-go
 	url = https://github.com/fatih/vim-go
+[submodule "vim/pack/kreisys/start/vim-dispatch"]
+	path = vim/pack/kreisys/start/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch
