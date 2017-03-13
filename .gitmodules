@@ -34,3 +34,6 @@
 [submodule "vim/pack/kreisys/start/vim-vaultproject"]
 	path = vim/pack/kreisys/start/vim-vaultproject
 	url = https://github.com/hashivim/vim-vaultproject
+[submodule "vim/pack/kreisys/start/vim-go"]
+	path = vim/pack/kreisys/start/vim-go
+	url = https://github.com/fatih/vim-go
