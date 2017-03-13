@@ -40,3 +40,6 @@
 [submodule "vim/pack/kreisys/start/vim-dispatch"]
 	path = vim/pack/kreisys/start/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch
+[submodule "vim/pack/kreisys/start/tagbar"]
+	path = vim/pack/kreisys/start/tagbar
+	url = https://github.com/majutsushi/tagbar
