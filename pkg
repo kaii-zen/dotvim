@@ -17,23 +17,43 @@ shift
 cd "${0%/*}"
 
 case $cmd in
-add)
-  usage="usage: $0 $cmd <user>/<repo> [package]"
-  
+add|rm)
+  usage="usage: $0 $cmd <user>/<repo>"
+
   # github user and repo of plugin being installed.
   user=${1%/*}
   repo=${1#*/}
-  
-  # name of package to install plugin into. defaults to current user.
-  package=${2:-plugins}
-  
+
   url=https://github.com/${user:?unspecified. $usage}/${repo:?unspecified. $usage}
-  path=vim/pack/${package:?unspecified. $usage}/start/${repo}
-  
-  git submodule add "https://github.com/$user/$repo" "pack/$package/start/$repo"
-  git commit -m "Add $repo"
+  path=pack/${user:?unspecified. $usage}/start/${repo}
+
+  case $cmd in
+    add)
+      git submodule add "https://github.com/$user/$repo" "pack/$user/start/$repo"
+      git commit -m "Add $user/$repo"
+      ;;
+    rm)
+      git submodule deinit pack/$user/start/$repo
+      git rm pack/$user/start/$repo
+      rm -Rf .git/modules/pack/$user/start/$repo
+      git commit -m "Remove $user/$repo"
+      ;;
+  esac
+  ;;
+update)
+  git submodule update --remote --merge
+  cd pack
+  for path in $(git ls-files --modified); do
+    pkg=${path//\/start\//\/}
+    git add $path
+    git commit -m "Update $pkg"
+  done
+  ;;
+ls)
+  cd pack
+  git ls-files | sed -E 's|(.*)/start/(.*)|\1/\2|'
   ;;
 *)
   echo $usage
   ;;
-esac 
+esac
