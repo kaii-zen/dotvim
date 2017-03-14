@@ -46,3 +46,6 @@
 [submodule "vim/pack/kreisys/start/neocomplete.vim"]
 	path = pack/Shougo/start/neocomplete.vim
 	url = https://github.com/Shougo/neocomplete.vim
+[submodule "pack/godlygeek/start/tabular"]
+	path = pack/godlygeek/start/tabular
+	url = https://github.com/godlygeek/tabular
