@@ -49,3 +49,6 @@
 [submodule "pack/godlygeek/start/tabular"]
 	path = pack/godlygeek/start/tabular
 	url = https://github.com/godlygeek/tabular
+[submodule "pack/plasticboy/start/vim-markdown"]
+	path = pack/plasticboy/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown
