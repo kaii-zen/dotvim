@@ -59,3 +59,7 @@ au FileType go nmap <leader>b <Plug>(go-build)
 au FileType go nmap <leader>t <Plug>(go-test)
 au FileType go nmap <leader>c <Plug>(go-coverage)
 "### /vim-go ###
+
+"### vim-terraform ###
+let g:terraform_fmt_on_save = 1
+"### /vim-terraform ###
