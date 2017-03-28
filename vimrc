@@ -65,9 +65,9 @@ let g:terraform_fmt_on_save = 1
 "### /vim-terraform ###
 
 "### syntastic ###
-let g:syntastic_javascript_checkers = ['standard']
-autocmd bufwritepost *.js silent !sh -c 'standard --fix % &>/dev/null'
-set autoread
+"let g:syntastic_javascript_checkers = ['standard']
+"autocmd bufwritepost *.js silent !sh -c 'standard --fix % &>/dev/null'
+"set autoread
 "### /syntastic ###
 
 "### NERTCommenter ###
