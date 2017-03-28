@@ -52,6 +52,3 @@
 [submodule "pack/plasticboy/start/vim-markdown"]
 	path = pack/plasticboy/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown
-[submodule "pack/vim-syntastic/start/syntastic"]
-	path = pack/vim-syntastic/start/syntastic
-	url = https://github.com/vim-syntastic/syntastic
