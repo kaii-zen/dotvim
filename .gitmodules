@@ -55,3 +55,6 @@
 [submodule "pack/w0rp/start/ale"]
 	path = pack/w0rp/start/ale
 	url = https://github.com/w0rp/ale
+[submodule "pack/pangloss/start/vim-javascript"]
+	path = pack/pangloss/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
