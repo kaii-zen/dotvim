@@ -52,3 +52,6 @@
 [submodule "pack/plasticboy/start/vim-markdown"]
 	path = pack/plasticboy/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown
+[submodule "pack/w0rp/start/ale"]
+	path = pack/w0rp/start/ale
+	url = https://github.com/w0rp/ale
