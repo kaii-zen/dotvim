@@ -58,3 +58,6 @@
 [submodule "pack/pangloss/start/vim-javascript"]
 	path = pack/pangloss/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript
+[submodule "pack/maralla/start/completor.vim"]
+	path = pack/maralla/start/completor.vim
+	url = https://github.com/maralla/completor.vim
