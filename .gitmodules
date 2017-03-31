@@ -61,3 +61,6 @@
 [submodule "pack/maralla/start/completor.vim"]
 	path = pack/maralla/start/completor.vim
 	url = https://github.com/maralla/completor.vim
+[submodule "pack/jgerry/start/terraform-vim-folding"]
+	path = pack/jgerry/start/terraform-vim-folding
+	url = https://github.com/jgerry/terraform-vim-folding
