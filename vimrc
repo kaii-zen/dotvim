@@ -64,6 +64,11 @@ au FileType go nmap <leader>c <Plug>(go-coverage)
 let g:terraform_fmt_on_save = 1
 "### /vim-terraform ###
 
+"### standardjs ###
+" Auto format on save
+autocmd bufwritepost *.js silent !sh -c 'standard --fix % &>/dev/null'
+set autoread
+"### /standardjs ###
 
 "### NERTCommenter ###
 " Add spaces after comment delimiters by default
