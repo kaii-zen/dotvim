@@ -61,3 +61,6 @@
 [submodule "pack/maralla/start/completor.vim"]
 	path = pack/maralla/start/completor.vim
 	url = https://github.com/maralla/completor.vim
+[submodule "pack/vim-scripts/start/bash-support.vim"]
+	path = pack/vim-scripts/start/bash-support.vim
+	url = https://github.com/vim-scripts/bash-support.vim
