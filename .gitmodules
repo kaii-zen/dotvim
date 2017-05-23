@@ -64,3 +64,6 @@
 [submodule "pack/vim-scripts/start/bash-support.vim"]
 	path = pack/vim-scripts/start/bash-support.vim
 	url = https://github.com/vim-scripts/bash-support.vim
+[submodule "pack/ryanoasis/start/vim-devicons"]
+	path = pack/ryanoasis/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
